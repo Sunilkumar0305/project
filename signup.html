@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- link cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+      
+    <!-- fav icons cdn -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+
+    <title>signup Page</title>
+  </head>
+  <body>
+    
+    <!-- header -->
+  <body style="background-image: linear-gradient(to right bottom, #b1e0f1, #a2d5ff, #b2c4ff, #d8abfc, #ff8ed8);" >
+    <div class=" container-fluid p-2 bg-secondary text-center text-light">Get beers, wines & liquor from her </div>
+ 
+      <!-- navbar -->
+       <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+       <div class="container-fluid">
+         <a class="navbar-brand fs-2 ps-4" href="index.html" ><i class="fa-solid fa-wine-glass fa-shake" style="color: #b62549;"></i>Wine & Dine</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+             <!-- search bar -->
+           <form class="d-flex me-auto w-50">
+             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+             <button class="btn btn-outline-success" type="submit">Search</button>
+           </form>
+             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+             <li class="nav-item"> <a class="nav-link active" aria-current="page" href="./aboutus.html">About Us</a></li>
+             <li class="nav-item"> <a class="nav-link" href="signin.html">sign in</a></li>
+             <!-- vertical line -->
+               <div class="vr"></div>
+              <li class="nav-item"> <a class="nav-link" href="signup.html">create account</a></li>
+               <!-- icons -->
+              <div class=" navbar-nav d-flex justify-content-between ">
+               <div class="fs-3 px-2"><i class="bi bi-heart"></i></div>
+               <div class="fs-3 px-2"><i class="bi bi-cart3"></i></div>
+                </div>
+              </ul >
+      </div>
+     </div>
+      </nav>
+        <!-- navbar end -->
+        <!-- list -->
+        <div class="container-fluid">
+          <div class="row bg-warning p-2 d-none d-lg-flex ">
+           <div class="col-lg-1"><a href="./beer.html" class="text-decoration-none text-dark ms-4">BEER</a></div>
+           <div class="col-lg-1"><a href="./wine.html" class="text-decoration-none text-dark ms-2">WINE</a></div>
+           <div class="col-lg-1"><a href="./spirits.html" class="text-decoration-none text-dark">SPIRITS</a></div>
+           <div class="col-lg-1"><a href="" class="text-decoration-none text-dark">EXTRAS</a></div>
+           <div class="col-lg-1"><a href="" class="text-decoration-none text-dark">STORES</a></div>
+           <div class="col-lg-1"><a href="" class="text-decoration-none text-dark">PROMOTIONS</a></div>
+           <div class="col-lg-1"><a href="" class="text-decoration-none text-dark">RETAILER</a></div>
+           <div class="col-lg-5"><a href="" class="text-decoration-none text-dark float-end me-4"><i class="fa-solid fa-location-dot me-2"></i>Enter Delivery Address</a></div>
+          </div>
+          </div>
+
+     <!-- sigup -->
+     <div class="text-center text-light fa-2x">Create an Account</div>    
+     <!-- signup box -->
+     <div class="box d-flex justify-content-evenly flex-column mb-3 border-2 border border-dark w-50 mx-auto h-auto text-light"
+     style="background-image: linear-gradient(to right top, #04060a, #363c3f, #697575, #a5b2ab, #edf2e3);" >
+        <form>
+            <div class="mb-1 p-3">                  
+                <label for="Full Name" class="form-label">Full Name</label>
+                <input type="Full Name" class="form-control" id="Full Name">
+              </div>
+            <div class="mb-1  p-3">
+              <label for="exampleInputEmail1" class="form-label">Email address</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+             </div>
+            <div class="mb-1  p-3">
+              <label for="exampleInputPassword1" class="form-label">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+              <div id="password" class="form-text text-light">We'll never share your password with anyone else.</div>
+            </div>
+            <div class="mb-1  p-3">
+                <label for="Phone Number" class="form-label">Phone Number</label>
+                <input type="Phone Number" class="form-control" id="Phone Number">
+              </div>
+              <div class="mb-1 p-3">
+                <label for="Date of Birth" class="form-label">Date of Birth</label>
+                <input type="date" class="form-control" id="Date of Birth">
+              </div>
+           
+             <div class="mb-1 p-3 text-center">
+                <button type="Create Account" class="btn btn-danger w-50">Create Account</button>
+             </div>
+            <p class="text-center">Already have an account? <a href="signin.html" class="text-light">sign in</a></p>
+            <p class="text-center">By creating an account, you agree to our Terms and Conditions and Privacy Policy</p>
+          </form>
+    
+      
+     
+    </div>
+<!-- footer -->
+<footer class="bg-dark text-light pt-4 ">
+  <div class="container text-left">
+  <div class="row text-left">
+      <!-- col-1 -->
+      <div class="col-md-3 col-lg-3 col-xl-3 mt-3 mx-auto" >
+        <p class="text-uppercase text-warning">ABOUT</p>
+        <p><a href="aboutus.html" class="text-decoration-none text-light">About Us</a></p>
+        <p>Stores</p>
+        <p>Wine Stores</p>
+        <p>Alcohol Delivery</p>
+        <p>Beer Stores</p>
+        <p> food Delivery</p>
+               </div>
+               <!-- col-2 -->
+               <div class="col-md-3 col-lg-3 col-xl-3 mt-3 mx-auto" >
+            <p class="text-uppercase text-warning">HELP</p>
+            <p>In Store Pickup</p>
+            <p>FAQ</p>
+            <p>Contact Us</p>
+            <p>Request Product</p>
+            <p>Return & Refund</p>
+            <p>Join as Retailer</p>
+               </div>
+               <!-- col-3 -->
+               <div class="col-md-3 col-lg-3 col-xl-3 mt-3 mx-auto" >
+                <p class="text-uppercase text-warning">MY ACCOUNT</p>
+        <p><a href="./signin.html" class="text-decoration-none text-light">Sign In</a></p>
+        <p><a href="./signup.html" class="text-decoration-none text-light">Sign Up</a></p>
+               </div>
+        <div class="col-md-3 col-lg-3 col-xl-3 mt-3 mx-auto" >
+    <p class="text-uppercase text-warning">FOLLOW US</p>
+   <div class="class fs-3">
+    <p><i class="fa-brands fa-facebook-f" style="color: #c4c5ca;"></i>
+      <i class="fa-brands fa-twitter" style="color: #c2c4c7;"></i>
+      <i class="fa-brands fa-instagram" style="color: #a3a5a8;"></i>
+  </p>
+   </div>
+   <p>DOWNLOAD THE APP</p>
+   <div class="class fs-3 ">
+    <p><i class="fa-brands fa-apple" style="color: #a7aaae;"></i>
+      <i class="fa-brands fa-google-play" style="color: #a5a7ac;"></i></p>
+  </div>
+   <p>PAYMENT OPTIONS</p>
+   <div class="class fs-4 ">
+    <p><i class="fa-brands fa-cc-visa" style="color: #1ea974;"></i>
+      <i class="fa-brands fa-cc-mastercard" style="color: #1d8c8a;"></i>
+      <i class="fa-brands fa-cc-paypal" style="color: #4f85e3;"></i></p>
+      </div>
+     </div>
+     <div class="row text-center">
+         <p>Terms and Conditions | Privacy and  Policy</p>
+         <p>&copy;2022 Goto Concept LLC All rights reserved.</p>
+
+     </div>
+  </div>
+</footer>
+
+
+
+
+
+ <!-- Optional JavaScript; choose one of the two! -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    
+    
+  </body>
+</html>
